@@ -7,7 +7,7 @@ createScraperUrl = (apiKey) => `http://api.scraperapi.com?api_key=${apiKey}&auto
 
 app.use(express.json());
 app.get('/', (req, res) => {
-    res.send('Welcome to Daraz Scraper API!');
+    res.send('Welcome to Amazon Scraper API!');
 });
 
 // Getting Product Details
